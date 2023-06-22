@@ -1,0 +1,13 @@
+  Map<String, String> contactMap = {
+    'Moosa': '1234567890',
+    'mubeeen': '9876543210',
+    'najam': '5555555555',
+    'sumair': '9999',
+    'tariq': '1234',
+  };
+  List<String> keysWithLengthFour = contactMap.keys.where((key) => key.length == 4).toList();
+  print('Keys with length 4:');
+  for (String key in keysWithLengthFour) {
+    print(key);
+  }
+Ans:Keys with length 4:
