@@ -1,20 +1,17 @@
   List<int> numbers = [8, 2, 5, 1, 9, 4, 6, 3, 7];
 
-  int smallest = numbers[0]; // Assume the first number is the smallest
-  int greatest = numbers[0]; // Assume the first number is the greatest
-
+  int smallest = numbers[0]; 
+  int greatest = numbers[0]; 
   for (int number in numbers) {
     if (number < smallest) {
-      smallest = number; // Update smallest if a smaller number is found
+      smallest = number; 
     }
-
     if (number > greatest) {
-      greatest = number; // Update greatest if a larger number is found
-    }
+      greatest = number;     }
   }
-
   print("Smallest number: $smallest");
   print("Greatest number: $greatest");
 }
+
   Ans:Smallest number: 1
 Greatest number: 9
