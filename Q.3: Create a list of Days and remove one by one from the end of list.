@@ -5,4 +5,10 @@
     print("Removed day: $removedDay");
   }
 }
-
+Ans:Removed day: Sunday
+Removed day: Saturday
+Removed day: Friday
+Removed day: Thursday
+Removed day: Wednesday
+Removed day: Tuesday
+Removed day: Monday
