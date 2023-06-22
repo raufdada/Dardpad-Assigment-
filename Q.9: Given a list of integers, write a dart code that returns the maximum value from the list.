@@ -1,0 +1,6 @@
+ List<int> value = [5, 10, 2, 8, 1];
+  int maxValue = value.reduce((value, element) => value > element ? value : element);
+  print("The maximum value is: $maxValue");
+}
+
+Ans:The maximum value is: 10
