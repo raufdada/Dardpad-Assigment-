@@ -1,11 +1,8 @@
-List<int> filterEvenNumbers(List<int> list) {
-    List<int> evenList = list.where((number) => number % 2 == 0).toList();
-    return evenList;
-  }
-    List<int> originalList = [0,1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    List<int> evenList = filterEvenNumbers(originalList);
-  
-  print(evenList);
+ List<int> numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
+  List<int> evenNumbers = numbers.where((number) => number % 2 == 0).toList();
+
+  print(evenNumbers);
 }
-Ans:[0, 2, 4, 6, 8, 10]
+
+Ans:[2, 4, 6, 8, 10]
