@@ -1,11 +1,8 @@
- List<int> filterPositiveNumbers(List<int> list) {
-    List<int> positiveList = list.where((number) => number >= 0).toList();
-    return positiveList;
-  }
-  List<int> originalList = [-2, 5, -7, 10, -3, 8];
+  List<int> numbers = [1, -2, 3, -4, 5, -6, 7, -8, 9];
   
-  List<int> positiveList = filterPositiveNumbers(originalList);
+  List<int> positiveNumbers = numbers.where((number) => number > 0).toList();
   
-  print(positiveList); 
+  print(positiveNumbers);
+}
 
-Ans:[5, 10, 8]
+Ans:[1, 3, 5, 7, 9]
