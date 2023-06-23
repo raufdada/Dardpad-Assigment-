@@ -1,0 +1,12 @@
+  List<int> sortList(List<int> list) {
+    List<int> sortedList = List.from(list); 
+    sortedList.sort(); 
+    return sortedList;
+  }
+   List<int> originalList = [9, 5, 2, 7, 1, 3];
+   List<int> sortedList = sortList(originalList);
+    print(sortedList); 
+  print(originalList); 
+}
+Ans:[1, 2, 3, 5, 7, 9]
+[9, 5, 2, 7, 1, 3]
