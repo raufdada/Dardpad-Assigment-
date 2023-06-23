@@ -1,0 +1,14 @@
+List<int> getFirstNElements(List<int> list, int n) {
+    if (n >= list.length) {
+      return list;
+    }
+    return list.sublist(0, n);
+  }
+  List<int> originalList = [2,5,8,0];
+  int n = 8;
+  List<int> resultList = getFirstNElements(originalList, n);
+  print(resultList); 
+}
+
+
+Ans:[2, 5, 8, 0]
