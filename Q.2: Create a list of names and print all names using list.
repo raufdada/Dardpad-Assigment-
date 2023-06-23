@@ -1,6 +1,5 @@
-  List<String> days = []; // Creating an empty list of type string
+  List<String> days = []; 
 
-  // Adding names of the seven days using the add method
   days.add("Monday");
   days.add("Tuesday");
   days.add("Wednesday");
