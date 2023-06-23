@@ -1,12 +1,10 @@
-List<String> originalList = ['apple', 'banana', 'orange', 'grape'];
-  List<String> reversedList = reverseList(originalList);
-  print("Original list: $originalList");
-  print("Reversed list: $reversedList");
+List<String> originalList = ['Abdul Rauf', 'Arsalan', 'yameen', 'tariq'];
+  
+  List<String> reversedList = List.from(originalList.reversed);
+  
+  print('Original List: $originalList');
+  print('Reversed List: $reversedList');
 }
-List<String> reverseList(List<String> list) {
-  List<String> reversed = List.from(list);
-  reversed = reversed.reversed.toList();
-  return reversed;
-}
-Ans:Original list: [apple, banana, orange, grape]
-Reversed list: [grape, orange, banana, apple]
+
+Ans:Original List: [Abdul Rauf, Arsalan, yameen, tariq]
+Reversed List: [tariq, yameen, Arsalan, Abdul Rauf]
