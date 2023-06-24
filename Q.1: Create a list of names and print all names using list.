@@ -1,0 +1,11 @@
+
+List<String> names = ['Asif', 'Nasir', 'Moosa', 'Tariq'];
+
+  for (String name in names) {
+    print(name);
+  }
+}
+Ans:Asif
+Nasir
+Moosa
+Tariq
