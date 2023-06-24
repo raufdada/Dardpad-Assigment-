@@ -1,0 +1,20 @@
+ Map<String, double> expenses = {
+    'sun': 3000.0,
+    'mon': 3000.0,
+    'tue': 3234.0,
+  };
+  
+  double sunExpense = expenses['sun']!;
+  double monExpense = expenses['mon']!;
+  double tueExpense = expenses['tue']!;
+  
+  print('Sun expense: $sunExpense');
+  print('Mon expense: $monExpense');
+  print('Tue expense: $tueExpense');
+}
+
+Asns:Sun expense: 3000
+Mon expense: 3000
+Tue expense: 3234
+  
+  
