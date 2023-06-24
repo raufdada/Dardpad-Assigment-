@@ -1,0 +1,15 @@
+  Map<String, dynamic> person = {
+    'name': 'Tariq',
+    'age': 28,
+    'isStudent': true,
+  };
+
+  bool isEligible = person['isStudent'] && person['age'] > 18;
+
+  if (isEligible) {
+    print('Eligible');
+  } else {
+    print('Not eligible');
+  }
+}
+Ans:Eligible
