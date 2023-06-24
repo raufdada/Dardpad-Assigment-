@@ -1,0 +1,17 @@
+  Map<String, dynamic> user = {
+    "name": "Hello wolrd",
+    "isAdmin": true,
+    "isActive": true,
+  };
+  
+  bool isAdmin = user["isAdmin"];
+  bool isActive = user["isActive"];
+  
+  if (isAdmin && isActive) {
+    print("Active admin");
+  } else {
+    print("Not an active admin");
+  }
+}
+
+Ans:Active admin
